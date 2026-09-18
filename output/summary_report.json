@@ -1,0 +1,51 @@
+{
+  "raw_rows": 525,
+  "raw_cols": 8,
+  "missing_before": 102,
+  "duplicates_before": 25,
+  "outlier_summary": {
+    "Quantity": {
+      "capped_upper_bound": 13.0,
+      "original_max": 500.0,
+      "new_max": 13.0
+    },
+    "UnitPrice": {
+      "capped_upper_bound": 736.0,
+      "original_max": 20000.0,
+      "new_max": 736.0
+    }
+  },
+  "missing_after": 0,
+  "duplicates_after": 0,
+  "clean_rows": 500,
+  "clean_cols": 10,
+  "category_revenue": {
+    "Home & Kitchen": 141615.18,
+    "Electronics": 134162.41,
+    "Clothing": 116634.62,
+    "Books": 115990.62,
+    "Sports": 110163.63
+  },
+  "region_revenue": {
+    "East": 150911.5,
+    "North": 148033.81,
+    "South": 162435.63,
+    "West": 157185.52
+  },
+  "payment_counts": {
+    "Cash": 133,
+    "Upi": 95,
+    "Wallet": 93,
+    "Debit Card": 93,
+    "Credit Card": 86
+  },
+  "top_customers": {
+    "CUST15": 37425.61,
+    "CUST39": 15068.79,
+    "CUST134": 13946.02,
+    "CUST82": 11850.17,
+    "CUST12": 11771.74
+  },
+  "overall_total_revenue": 618566.46,
+  "avg_order_value": 1237.13
+}
